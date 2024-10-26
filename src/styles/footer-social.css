@@ -1,0 +1,37 @@
+/* Footer social icon styles */
+.footer-social {
+  color: #F8F1F1 !important; /* Plain white */
+  background: none !important; /* No background */
+  border: none !important; /* No border */
+  padding: 0 !important;
+  margin: 30px 50px;
+  font-size: 40px;
+  transition: color 0.3s ease;
+  position: relative;
+  box-shadow: none !important;
+}
+
+.footer-social:hover {
+  color: #694F8E !important; /* Light purple on hover */
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Override any Social class styles */
+.footer-link.footer-social {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.footer-link.footer-social:hover {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove snowflake container from footer social icons */
+.footer-social .snowflake-container {
+  display: none !important;
+}
