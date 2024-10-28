@@ -27,7 +27,7 @@ import csharpadvanced from '/public/images/csharpadvanced.webp';
 import CSharpUnitTesting from '/public/images/CSharpUnitTesting.webp';
 import javascript_mastery from '/public/images/javascript_mastery.webp';
 import figma from '/public/images/figma.webp';
-
+import nextjs1 from '/public/images/nextjs1.webp';
 
 const certificates = [
   {
@@ -205,7 +205,15 @@ const certificates = [
     link: "https://www.udemy.com/course/figma-ux-ui-design-user-experience-tutorial-course",
     alt: "My UI/UX design certificate with Figma",
     position: "right"
-  }
+  },
+  {
+    name: "Next.js",
+    description: "In this course, I learned to use Next.js 13 with TypeScript to build scalable and fast applications, utilizing techniques like server-side rendering, dynamic routing, and API routes.",
+    image: nextjs1,
+    link: "https://codewithmosh.com/p/ultimate-nextjs-series",
+    alt: "My certificate for mastering Next.js 13 with TypeScript",
+    position: "left"
+}
 ];
 export default function Certificates() {
   useEffect(() => {
