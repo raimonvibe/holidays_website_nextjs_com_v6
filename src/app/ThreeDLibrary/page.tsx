@@ -18,6 +18,7 @@ import cat2 from '/public/images/cat v6 final.webp';
 import deer from '/public/images/deer.webp';
 import monkeys from '/public/images/monkeys.webp';
 import earrings from '/public/images/earrings.webp';
+import christmas_drinkcoaster from '/public/images/christmas_drinkcoaster.webp';
 
 
 const ThreeDLibrary: React.FC = () => {
@@ -67,28 +68,43 @@ const ThreeDLibrary: React.FC = () => {
           </div>
         </article>
       </div>
-
       <main>
-        <div className="spacing"></div>
-        <div className="middle-container">
-          <br />
-          <h3 className="sellfy-text">Webshop:</h3>
-          <a className="Social buy-spacing" target="_blank" rel="noreferrer" href="https://zaap.bio/raimonvibe" aria-label="Visit Raimonvibe's 3D webshop">
-            3D
-          </a>
-          <div className="spacing"></div>
-          <Image className="model-left" src={monkeys} alt="A coaster with a monkey." width={500} height={300} />
-          <article>
-            <div>
-              <h1 className="exclusive-text">🐵 coaster</h1>
-              <p>A beautiful coaster set with a print of a monkey. The download contains two files.</p>
-              <a className="sellfy-buy-button Social align" target="_blank" rel="noreferrer" href="https://zaap.bio/raimonvibe/3d-model-monkey-drinkcoaster-" data-text="Buy now" aria-label="Download free monkey coaster 3D model">
-                Free!
-              </a>
-              <div className="spacing3"></div>
-            </div>
-          </article>
-        </div>
+  <div className="spacing"></div>
+  <br />
+  <h3 className="sellfy-text">Webshop:</h3>
+  <a className="Social buy-spacing" target="_blank" rel="noreferrer" href="https://zaap.bio/raimonvibe" aria-label="Visit the 3D webshop of Raimonvibe">
+    3D
+  </a>
+
+  <div className="spacing"></div>
+  <div className="middle-container">
+    <Image className="model-right" src={christmas_drinkcoaster} alt="A Christmas coaster, perfect for the holidays!" width={500} height={300} />
+    <article>
+      <div>
+        <h1 className="exclusive-text">☃️ Christmas Coaster</h1>
+        <p>A beautiful Christmas coaster featuring "Merry Christmas" and festive details like holly leaves and snowflakes ❄️. Protect your table with style and bring a touch of holiday cheer into your home!</p>
+        <a className="sellfy-buy-button Social left-align align" target="_blank" rel="noreferrer" href="https://cults3d.com/en/3d-model/home/christmas-drink-coaster" data-text="Download now" aria-label="Download free Christmas coaster 3D model">
+          Free!
+        </a>
+        <div className="spacing3"></div>
+      </div>
+    </article>
+  </div>
+
+  <div className="spacing"></div>
+  <div className="middle-container">
+    <Image className="model-left" src={monkeys} alt="A coaster with a monkey design." width={500} height={300} />
+    <article>
+      <div>
+        <h1 className="exclusive-text">🐵 Monkey Coaster</h1>
+        <p>A beautiful set of coasters featuring a monkey design. The download includes two files.</p>
+        <a className="sellfy-buy-button Social align" target="_blank" rel="noreferrer" href="https://zaap.bio/raimonvibe/3d-model-monkey-drinkcoaster-" data-text="Download now" aria-label="Download free monkey coaster 3D model">
+          Free!
+        </a>
+        <div className="spacing3"></div>
+      </div>
+    </article>
+  </div>
 
         <div className="spacing"></div>
         <div className="middle-container">
