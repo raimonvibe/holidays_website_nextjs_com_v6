@@ -28,6 +28,7 @@ import CSharpUnitTesting from '/public/images/CSharpUnitTesting.webp';
 import javascript_mastery from '/public/images/javascript_mastery.webp';
 import figma from '/public/images/figma.webp';
 import nextjs1 from '/public/images/nextjs1.webp';
+import docker from '/public/images/docker.webp';
 
 const certificates = [
   {
@@ -213,7 +214,16 @@ const certificates = [
     link: "https://codewithmosh.com/p/ultimate-nextjs-series",
     alt: "My certificate for mastering Next.js 13 with TypeScript",
     position: "left"
+},
+{
+  name: "Docker",
+  description: "In this course, I learned the fundamental and advanced concepts of Docker, including setting up containers, creating Docker images, and managing applications in a containerized environment. This knowledge enables me to create efficient, scalable, and standardized development environments.",
+  image: docker,
+  link: "https://codewithmosh.com/p/the-ultimate-docker-course",
+  alt: "My Docker certificate from Code with Mosh",
+  position: "right"
 }
+
 ];
 export default function Certificates() {
   useEffect(() => {
