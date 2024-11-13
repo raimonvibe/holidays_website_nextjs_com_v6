@@ -22,10 +22,9 @@ export default function Opportunities() {
               </h3>
               <ul>
                 <li><a className="opportunity" href="https://commercetools.com/" target="_blank" rel="noopener noreferrer">Commercetools</a></li>
-                <li><a className="opportunity" href="https://payever.careers/" target="_blank" rel="noopener noreferrer">PAYEVER</a></li>
+                <li><a className="opportunity" href="https://payever.careers/" target="_blank" rel="noopener noreferrer">Payever</a></li>
               </ul>
             </section>
-
             <section>
               <h3>
                 <FontAwesomeIcon icon={faSitemap as IconDefinition} className="opportunity-icon" /> IT Consulting and Development
