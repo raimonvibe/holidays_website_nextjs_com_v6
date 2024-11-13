@@ -35,6 +35,7 @@ export default function Opportunities() {
                 <li><a className="opportunity" href="https://careers.cognizant.com/nl/nl" target="_blank" rel="noopener noreferrer">Cognizant</a></li>
                 <li><a className="opportunity" href="https://q-logic.nl/" target="_blank" rel="noopener noreferrer">Qlogic</a></li>
                 <li><a className="opportunity" href="https://www.alten.nl/" target="_blank" rel="noopener noreferrer">Alten</a></li>
+                <li><a className="opportunity" href="https://avanceservices.com/" target="_blank" rel="noopener noreferrer">Avance Consulting</a></li>
               </ul>
             </section>
 
@@ -55,6 +56,8 @@ export default function Opportunities() {
               <ul>
                 <li><a className="opportunity" href="https://vitas.nl/young-talent" target="_blank" rel="noopener noreferrer">VITAS Young Talent</a></li>
                 <li><a className="opportunity" href="https://cloudstaff.com/" target="_blank" rel="noopener noreferrer">Cloudstaff</a></li>
+                <li><a className="opportunity" href="https://vividresourcing.com/" target="_blank" rel="noopener noreferrer">Vivid Resourcing</a></li>
+                <li><a className="opportunity" href="https://www.telusdigital.com/" target="_blank" rel="noopener noreferrer">Telus Digital</a></li>
               </ul>
             </section>
           </article>
