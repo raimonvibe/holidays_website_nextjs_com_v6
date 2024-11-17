@@ -19,7 +19,7 @@ import deer from '/public/images/deer.webp';
 import monkeys from '/public/images/monkeys.webp';
 import earrings from '/public/images/earrings.webp';
 import christmas_drinkcoaster from '/public/images/christmas_drinkcoaster.webp';
-
+import moose from '/public/images/moose.webp';
 
 const ThreeDLibrary: React.FC = () => {
   useEffect(() => {
@@ -76,6 +76,21 @@ const ThreeDLibrary: React.FC = () => {
     3D
   </a>
 
+  <div className="spacing"></div>
+<div className="middle-container">
+  <Image className="model-left" src={moose} alt="A set of moose-themed earrings for winter." width={500} height={300} />
+  <article>
+    <div>
+      <h1 className="exclusive-text">🦌 Moose Earrings Winter Set</h1>
+      <p>Celebrate the winter season with this charming set of moose-themed earrings. Perfect for cozy vibes and festive outfits. The download includes three unique designs.</p>
+      <a className="sellfy-buy-button Social align" target="_blank" rel="noreferrer" href="https://cults3d.com/en/3d-model/jewelry/moose-earrings-set-winter-themed-3d-model-jewelry" data-text="Download now" aria-label="Download free moose earrings 3D model">
+        Free!
+      </a>
+      <div className="spacing3"></div>
+    </div>
+  </article>
+</div>
+        
   <div className="spacing"></div>
   <div className="middle-container">
     <Image className="model-right" src={christmas_drinkcoaster} alt="A Christmas coaster, perfect for the holidays!" width={500} height={300} />
