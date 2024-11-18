@@ -20,6 +20,7 @@ import monkeys from '/public/images/monkeys.webp';
 import earrings from '/public/images/earrings.webp';
 import christmas_drinkcoaster from '/public/images/christmas_drinkcoaster.webp';
 import moose from '/public/images/moose.webp';
+import snowflake from '/public/images/snowflake.webp';
 
 const ThreeDLibrary: React.FC = () => {
   useEffect(() => {
@@ -76,6 +77,22 @@ const ThreeDLibrary: React.FC = () => {
     3D
   </a>
 
+          <div className="spacing"></div>
+  <div className="middle-container">
+  <Image className="model-right" src={snowflake} alt="Elegant snowflake earrings, perfect for the holiday season!" width={500} height={300} />
+  <article>
+    <div>
+      <h1 className="exclusive-text">❄️ Snowflake Elegance Earrings</h1>
+      <p>Celebrate the winter season with these exquisitely detailed snowflake earrings ❄️. Their frosty charm adds a magical touch to any outfit, making them the perfect accessory for holiday parties or a thoughtful festive gift. Bring a sparkle to your winter wardrobe with these dazzling earrings!</p>
+      <a className="sellfy-buy-button Social left-align align" target="_blank" rel="noreferrer" href="https://cults3d.com/en/3d-model/jewelry/snowflake-earrings-v1" data-text="Download now" aria-label="Download free snowflake earrings 3D model">
+        Free!
+      </a>
+      <div className="spacing3"></div>
+    </div>
+  </article>
+</div>
+
+        
   <div className="spacing"></div>
 <div className="middle-container">
   <Image className="model-left" src={moose} alt="A set of moose-themed earrings for winter." width={500} height={300} />
