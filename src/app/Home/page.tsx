@@ -11,20 +11,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <div className="spacing"></div>
-        <div className="video-container">
-          <div className="video-responsive">
-            <iframe
-              src="https://www.youtube.com/embed/PhokNIST824"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="YouTube video 1"
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
-        <div className="spacing"></div>
+      
 
         <div className="header">
           <Image
@@ -45,20 +32,7 @@ export default function Home() {
             </div>
           </article>
         </div>
-        <div className="spacing"></div>
-        <div className="video-container">
-          <div className="video-responsive">
-            <iframe
-              src="https://www.youtube.com/embed/bSq3YELK5ww"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="YouTube video 2"
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
-        <div className="spacing"></div>
+    
 
         <div className="middle-container">
           <Image
