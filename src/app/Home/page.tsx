@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <main>
-      
+    
 
         <div className="header">
           <Image
@@ -32,8 +32,7 @@ export default function Home() {
             </div>
           </article>
         </div>
-    
-
+   
         <div className="middle-container">
           <Image
             className="common-properties common-properties-right"
