@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect } from 'react';
 import blog from "/public/images/blog.webp";
 import youtube from "/public/images/youtube.webp";
-import developer from "/public/images/developer.webp";
 import { createMultipleSnowflakes } from '../../script';
 
 export default function Diensten() {
