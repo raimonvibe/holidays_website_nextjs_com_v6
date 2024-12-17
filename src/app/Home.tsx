@@ -7,19 +7,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <main>
-        <div className="spacing"></div>
-        <div className="video-container">
-          <div className="video-responsive">
-            <iframe
-              src="https://www.youtube.com/embed/PhokNIST824"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="YouTube video 1"
-            ></iframe>
-          </div>
-        </div>
-        <div className="spacing"></div>
+  
 
         <div className="header">
           <Image
@@ -41,19 +29,7 @@ const Home: React.FC = () => {
             </div>
           </article>
         </div>
-        <div className="spacing"></div>
-        <div className="video-container">
-          <div className="video-responsive">
-            <iframe
-              src="https://www.youtube.com/embed/bSq3YELK5ww"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="YouTube video 2"
-            ></iframe>
-          </div>
-        </div>
-        <div className="spacing"></div>
+ 
 
         <div className="middle-container">
           <Image
