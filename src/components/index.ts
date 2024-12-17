@@ -5,7 +5,6 @@ import Home from "../app/Home/page";
 import Services from "../app/Services/page";
 import Certificates from "../app/Certificates/page";
 import Resume from "../app/Resume/page";
-import Store from "../app/Store/page";
 import NavbarHome from "./NavbarHome";
 import PrivacyNotice from "../app/PrivacyNotice/page";
 import LegalNotice from "../app/LegalNotice/page";
@@ -25,7 +24,6 @@ export {
   PrivacyNotice,
   LegalNotice,
   About,
-  Store,
   Footer,
   ThreeDLibrary,
 };
