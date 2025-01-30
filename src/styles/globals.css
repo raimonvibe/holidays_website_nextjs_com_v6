@@ -245,10 +245,10 @@ body .footer-link::after, body .footer-link2::after, body .footer-link3::after, 
   margin: 0;
   padding: 0;
   background-color: #F8F1F1;
-  background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'%3E%3Cpath d=\'M0,40 Q25,20 50,40 T100,40\' fill=\'none\' stroke=\'rgba(200, 150, 255, 0.1)\' stroke-width=\'2\'/%3E%3C/svg%3E');
+  background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100\' height=\'100\'%3E%3Cpath d=\'M0,40 Q25,20 50,40 T100,40\' fill=\'none\' stroke=\'rgba(154, 167, 193, 0.1)\' stroke-width=\'2\'/%3E%3C/svg%3E');
   font-weight: bold;
   background-size: 100px 100px;
-  color: #1a1a1a !important;
+  color: #2F3F57 !important;
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
@@ -260,13 +260,12 @@ body .container-fluid {
   margin-top: 30px;
   padding: 30px;
   text-align: center;
-  background: linear-gradient(-45deg, #0A001F, #1C0C2D, #0A001F, #0A001F, #0A001F) !important;
+  background: linear-gradient(-45deg, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
   background-size: 400% 400% !important;
   animation: GradientAnimation 20s ease infinite !important;
-  color: #1a1a1a !important; /* Ensure text color contrasts with the background */
+  color: #2F3F57 !important; /* Ensure text color contrasts with the background */
   min-height: auto !important; /* Prevent conflicts with other media queries */
 }
-
 
 /* body {
   background: #373A40 !important; /* Donkergrijze achtergrond met hoge prioriteit
@@ -313,7 +312,7 @@ body .footer-link4, body .footer-link5 {
 }
 
 body .footer-link:hover, body .footer-link2:hover, body .footer-link3:hover, body .footer-link4:hover, body .footer-link5:hover {
-  color: #694F8E !important; /* Hover kleur */
+  color: #2F3F57 !important; /* Hover kleur */
   outline: none;
   transform: scale(1.1); /* Slight increase in size on hover for visibility */
 }
@@ -349,7 +348,7 @@ body .footer-icons {
 }
 
 .shop-link:hover {
-  color: #694F8E !important; /* Specifieke kleur voor de productbeschrijving bij hover */
+  color: #2F3F57 !important; /* Specifieke kleur voor de productbeschrijving bij hover */
 }
 
 
@@ -364,7 +363,7 @@ body .footer-icons {
 } */
 
 .shop-link:hover .arrow {
-  color: #694F8E !important; /* Specifieke kleur voor de productbeschrijving bij hover */
+  color: #2F3F57 !important; /* Specifieke kleur voor de productbeschrijving bij hover */
 }
 
 h5 {
@@ -375,7 +374,7 @@ h5 {
 
 
 .middle-container p a.custom-link {
-  color: #694F8E !important;
+  color: #2F3F57 !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -423,7 +422,7 @@ border-radius: 12px;
 cursor: pointer;
 text-align: center;
 color: #F8F1F1;
-background: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E);
+background: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3);
 transition: all 0.5s linear;
 }
 
@@ -446,7 +445,7 @@ width: 200px;
 opacity: 0;
 cursor: pointer;
 color: #F8F1F1;
-background-color: #1C0C2D;
+background-color: #2F3F57;
 overflow: hidden;
 transition: all 0.4s ease, background-color 0.2s ease;
 }
@@ -455,7 +454,7 @@ transition: all 0.4s ease, background-color 0.2s ease;
 .dropdown11 li a {
 font-size: 18px;
 font-weight: 400;
-color: #694F8E;
+color: #2F3F57;
 text-decoration: none;
 display: block;
 width: 100%;
@@ -471,7 +470,7 @@ height: 13px;
 margin-right: 10px;
 border-radius: 10px;
 vertical-align: middle;
-background-color: #0A001F;
+background-color: #2F3F57;
 }
 
 /* Transition delays for each link */
@@ -524,7 +523,7 @@ display: none;
 
 /* Hover effect for list items */
 .dropdown11 li:hover {
-background-color: #0A001F;
+background-color: #2F3F57;
 }
 
 /* Change the bullet color on hover */
@@ -535,17 +534,18 @@ background-color: #F8F1F1;
 /* Hover effect for the dropdown trigger (h1) */
 .dropdown11 h1:hover,
 .dropdown11 h1:focus {
-background: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E);
-border-color: #694F8E;
-box-shadow: 0 4px 15px rgba(105, 79, 142, 0.75);
+  background: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3);
+  border-color: #2F3F57;
+  box-shadow: 0 4px 15px rgba(47, 63, 87, 0.75);  
 }
 
 /* Hover effect for dropdown links (li) */
 .dropdown11 li:hover,
 .dropdown11 li:focus {
-background: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E);
-box-shadow: 0 4px 15px rgba(105, 79, 142, 0.75);
+  background: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3);
+  box-shadow: 0 4px 15px rgba(47, 63, 87, 0.75);  
 }
+
 
 /* Media queries for mobile (smaller than 600px) */
 @media (max-width: 600px) {
@@ -685,7 +685,7 @@ ul li a {
 
 ul li a:hover,
 ul li a:focus {
-  color: #694F8E !important;/* Changes to a different color on hover/focus */
+  color: #2F3F57 !important;/* Changes to a different color on hover/focus */
   outline: none;
 }
 
@@ -699,7 +699,7 @@ ul li a:focus {
 /* Hover and focus style for NavbarHome links */
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #694F8E  !important; /* Purple text on hover/focus */
+  color: #2F3F57  !important; /* Purple text on hover/focus */
   outline: none; /* Remove focus outline */
 }
 
@@ -797,13 +797,13 @@ a {
   transition: color 2s;
 }
 a:hover {
-  color: #694F8E !important; /* Hover kleur */
+  color: #2F3F57 !important; /* Hover kleur */
   outline: none;
   transform: scale(1.1); /* Slight increase in size on hover for visibility */
 }
 
 .nav-link:hover {
-  color: #694F8E !important; /* Hover kleur */
+  color: #2F3F57 !important; /* Hover kleur */
 }
 
 * {
@@ -852,17 +852,17 @@ li {
 
 *::selection {
   background: rgba(0, 0, 0, 0.01); /* Bijna transparante achtergrond, zodat deze niet zichtbaar is */
-  color: #694F8E !important; /* Paarse tekstkleur */
+  color: #2F3F57 !important; /* Paarse tekstkleur */
 }
 
 *::-moz-selection {
   background: rgba(0, 0, 0, 0.01); /* Bijna transparante achtergrond */
-  color: #694F8E !important; /* Paarse tekstkleur */
+  color: #2F3F57 !important; /* Paarse tekstkleur */
 }
 
 *::-webkit-selection {
   background: rgba(0, 0, 0, 0.01); /* Bijna transparante achtergrond */
-  color: #694F8E !important; /* Paarse tekstkleur */
+  color: #2F3F57 !important; /* Paarse tekstkleur */
 }
 
 
@@ -894,7 +894,7 @@ li {
 
 .opportunity-icon {
   font-size: 24px; /* Default size for desktop */
-  color: #694F8E !important; /* Icon color */
+  color: #2F3F57 !important; /* Icon color */
   transition: color 0.3s, transform 0.3s; /* Transition for color and transform */
   margin-right: 8px; /* Adjust spacing between text and icon */
 }
@@ -1341,12 +1341,12 @@ iframe {
 
 
 .Social {
-  background: #1C0C2D !important;
-  background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+  background: #2F3F57 !important;
+  background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
   cursor: pointer;
   border: 2px solid #EEE3CB;
   border-radius: 12px;
@@ -1380,29 +1380,29 @@ iframe {
 
 .Social:hover,
 .Social:focus {
-  background: #1C0C2D !important;
-  background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+  background: #2F3F57 !important;
+  background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
   outline: none;
-  border-color: #694F8E; /* New hover border color */
+  border-color: #2F3F57; /* New hover border color */
   background-position: 100% 0;
   transition: all .4s ease-in-out;
-  box-shadow: 0 4px 15px 0 rgba(105, 79, 142, 0.75); /* Adjusted shadow color to purple */
+  box-shadow: 0 4px 15px 0 rgba(47, 63, 87, 0.75);/* Adjusted shadow color to purple */
 }
 
 #myBtn {
-  background: #1C0C2D !important;
-  background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+  background: #2F3F57 !important;
+  background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
   cursor: pointer;
   border-radius: 12px;
   font-family: 'Quicksand', sans-serif;
@@ -1437,19 +1437,19 @@ iframe {
 
 #myBtn:hover,
 #myBtn:focus {
-  background: #1C0C2D !important;
-  background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-  background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+  background: #2F3F57 !important;
+  background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+  background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
   text-decoration: none;
   font-weight: bold;
   outline: none;
-  border-color: #694F8E; /* New hover border color */
+  border-color: #2F3F57; /* New hover border color */
   background-position: 100% 0;
   transition: all .4s ease-in-out;
-  box-shadow: 0 4px 15px 0 rgba(105, 79, 142, 0.75); /* Adjusted shadow color to purple */
+  box-shadow: 0 4px 15px 0 rgba(47, 63, 87, 0.75);/* Adjusted shadow color to purple */
 }
 
 
@@ -1699,7 +1699,7 @@ iframe {
   .footer-link2:focus,
   .footer-link3:hover,
   .footer-link3:focus {
-    color: #694F8E;
+    color: #2F3F57;
     outline: none;
   }
 
@@ -1864,12 +1864,12 @@ iframe {
   }
 
   .Social {
-    background: #1C0C2D !important;
-    background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+    background: #2F3F57 !important;
+    background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
     cursor: pointer;
     border-radius: 12px;
     border: 2px solid #EEE3CB;
@@ -1900,20 +1900,20 @@ iframe {
 
   .Social:hover,
   .Social:focus {
-    background: #1C0C2D !important;
-    background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-    background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+    background: #2F3F57 !important;
+    background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+    background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
     outline: none;
-    border-color: #694F8E; /* New hover border color */
+    border-color: #2F3F57; /* New hover border color */
     background-position: 100% 0;
     transition: all .4s ease-in-out;
-    box-shadow: 0 4px 15px 0 rgba(105, 79, 142, 0.75); /* Adjusted shadow color to purple */
+    box-shadow: 0 4px 15px 0 rgba(47, 63, 87, 0.75); /* Adjusted shadow color to purple */
   }
 
 
@@ -1922,12 +1922,12 @@ iframe {
     }
 
     footer .container-fluid #myBtn {
-      background: #1C0C2D !important;
-      background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+      background: #2F3F57 !important;
+      background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
       cursor: pointer;
       border-radius: 12px;
       font-family: 'Quicksand', sans-serif;
@@ -1948,19 +1948,19 @@ iframe {
 
     footer .container-fluid #myBtn:hover,
     footer .container-fluid #myBtn:focus {
-      background: #1C0C2D !important;
-      background-image: -webkit-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -moz-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -ms-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: -o-linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
-      background-image: linear-gradient(to right, #0A001F, #1C0C2D, #301934, #4B0082, #694F8E) !important;
+      background: #2F3F57 !important;
+      background-image: -webkit-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -moz-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -ms-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: -o-linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
+      background-image: linear-gradient(to right, #2F3F57, #3B4B6E, #4A5E85, #5A719C, #6A85B3) !important;
       text-decoration: none;
       font-weight: bold;
       outline: none;
-      border-color: #694F8E; /* New hover border color */
+      border-color: #2F3F57; /* New hover border color */
       background-position: 100% 0;
       transition: all .4s ease-in-out;
-      box-shadow: 0 4px 15px 0 rgba(105, 79, 142, 0.75); /* Adjusted shadow color to purple */
+      box-shadow: 0 4px 15px 0 rgba(47, 63, 87, 0.75); /* Adjusted shadow color to purple */
       color: #F8F1F1 !important; /* Hover tekstkleur */
     }
 
