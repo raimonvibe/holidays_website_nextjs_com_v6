@@ -57,6 +57,7 @@ export default function Opportunities() {
                 <li><a className="opportunity" href="https://cloudstaff.com/" target="_blank" rel="noopener noreferrer">Cloudstaff</a></li>
                 <li><a className="opportunity" href="https://vividresourcing.com/" target="_blank" rel="noopener noreferrer">Vivid Resourcing</a></li>
                 <li><a className="opportunity" href="https://www.telusdigital.com/" target="_blank" rel="noopener noreferrer">Telus Digital</a></li>
+                <li><a className="opportunity" href="https://www.foxtekrs.com/" target="_blank" rel="noopener noreferrer">Foxtekrs</a></li>
               </ul>
             </section>
           </article>
