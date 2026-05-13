@@ -1,4 +1,4 @@
-# Raimonvibe Personal Website
+#  Raimonvibe Personal Website
 
 A very modern, responsive personal website for Raimonvibe, a technology researcher and web developer, built with Next.js, React, and TypeScript.
 
