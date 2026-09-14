@@ -10,12 +10,19 @@ updates:
       npm-minor-patch:
         patterns: ["*"]
         update-types: ["minor", "patch"]
-    # Next.js 16 removed `next lint`, so that major is an app migration,
-    # not a Dependabot bump. Keep eslint-config-next on the same major.
+    # Majors need an app migration (Next 16, Tailwind 4, TypeScript 7, Font Awesome 7).
     ignore:
       - dependency-name: "next"
         update-types: ["version-update:semver-major"]
       - dependency-name: "eslint-config-next"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "tailwindcss"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@fortawesome/*"
         update-types: ["version-update:semver-major"]
 
   - package-ecosystem: github-actions
