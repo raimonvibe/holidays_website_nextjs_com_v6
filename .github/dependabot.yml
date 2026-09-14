@@ -10,19 +10,9 @@ updates:
       npm-minor-patch:
         patterns: ["*"]
         update-types: ["minor", "patch"]
-    # Majors need an app migration (Next 16, Tailwind 4, TypeScript 7, Font Awesome 7).
+    # Majors need an app migration (Next 16, ESLint 10, Tailwind 4, TypeScript 7, Font Awesome 7).
     ignore:
-      - dependency-name: "next"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "eslint-config-next"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "tailwindcss"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "typescript"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@types/node"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "@fortawesome/*"
+      - dependency-name: "*"
         update-types: ["version-update:semver-major"]
 
   - package-ecosystem: github-actions
